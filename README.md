@@ -19,6 +19,7 @@
 |------|----|-------|
 |message|text|null: false|
 |image|string||
+|name|string|null: false|
 |user|references|null: false, foreign_key: true|
 ### Association
 - has_many :tags, through :tweets_tags
